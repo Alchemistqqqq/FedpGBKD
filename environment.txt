@@ -1,5 +1,5 @@
-conda create --name ssp python=3.9.21
-conda activate ssp
+conda create --name fed python=3.9.21
+conda activate fed
 pip install torch==1.10.2+cu113 -f https://download.pytorch.org/whl/torch_stable.html
 pip install dgl-cu113 -f https://data.dgl.ai/wheels/repo.html
 pip install numpy==1.26.0 
